@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" 
+    rel="stylesheet">
+   <title>Grand Hotel</title>
+   <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <!-- navbar-->
+        <div class="navabr">
+		<input type="checkbox" class="checkbox" id="click" hidden>
+        <!-- sidebar -->
+         <div class="sidebar">
+		 <label for="click">
+             <div class="menu-icon">
+                 <div class="line line_1"></div>
+                 <div class="line line_2"></div>
+                 <div class="line line_3"></div>
+             </div>
+            </label>
+             <ul class="social-media">
+                 <li>
+                     <a href="#" class="social-link"><i class="fab fa-google-plus-g"></i></a>
+                 </li>
+                 <li>
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </li>
+             </ul>
+             <div class="year">
+                 <p>2020</p>
+             </div>
+         </div>
+         <!-- end sidebar -->
+<!-- navigation -->
+<nav class="navigation">
+
+        <div class="navigation-header">
+          
+            <h1 class="navigation-heading">Grand Hotel</h1>
+            <form class="navigation-search">
+                <input type="text" class="navigation-search-box" placeholder="Search..."/>
+                <button class="navigation-search-btn"><i class="fa fa-search"></i></button>
+            </form>
+        
+        </div>
+    
+        <ul class="navigation-list">
+            <li class="navigation-item">
+                <a href="#" class="navigation-link">Home</a>
+            </li>
+            <li class="navigation-item">
+                <a href="#about" class="navigation-link">About us</a>
+            </li>
+            <li class="navigation-item">
+                <a href="#Rooms" class="navigation-link">Rooms</a>
+            </li>
+            <!-- <li class="navigation-item">
+                <a href="#" class="navigation-link">Events</a>
+            </li> -->
+            <li class="navigation-item">
+                <a href="#Customers" class="navigation-link">Customers</a>
+            </li>
+            <li class="navigation-item">
+                <a href="#Contact" class="navigation-link">Contact Us</a>
+            </li>
+        </ul>
+    
+    <div class="copy-right">
+        <p>&copy; 2020 Grand-Hotel . All Rights Reserved</p>
+    </div>
+</nav>
+
+<!-- end navigation -->
+        </div>
+    <!-- navbar -->
+	
+	<!---header--->
+	<header class="header">
+	<div class="brand">
+	<div>
+	<img src="golden-king-crown-logo-vector-6243287.jpg" width="80">
+	</div>
+	<h3 class="hotel-heading">Grand Hotel</h3>
+	</div>
+	</header>
+	<!---end of header--->
+
+ 
